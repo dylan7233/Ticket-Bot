@@ -258,12 +258,12 @@ module.exports = {
             if (ticketChannel) {
               const fixedTicketEmbed = new EmbedBuilder()
                 .setColor('#0099ff')
-                .setTitle('🎟️ Welcome to Ticket Support')
+                .setTitle('🎟️ Welcome to our store.')
                 .setImage('https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif')
-              .setDescription('Thank you for choosing our ticket system for support. Please click the button below to create a new ticket.\n\n' +
+              .setDescription('Thank you for choosing us. Please click the button below to create a ticket.\n\n' +
                  '**Ticket Guidelines:**\n' +
                  '- Empty tickets are not permitted.\n' +
-                 '- Please be patient while waiting for a response from our support team.')
+                 '- Please be patient while waiting for a response from our team.')
               .setFooter({ text: 'We are here to Help!', iconURL:'https://cdn.discordapp.com/attachments/1209499496732692580/1209514764531924992/1667-yellow-gears.gif?ex=65e73367&is=65d4be67&hm=10e9c542cab73102272ecb710cb58f11e581d7c6e9bf7d7c9da6217cda3928b9&'});
 
               const createTicketButton = new ButtonBuilder()
